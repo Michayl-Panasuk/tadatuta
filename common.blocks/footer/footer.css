@@ -1,0 +1,22 @@
+.footer
+{
+	border-top: 2px solid #292826;
+	background: #1f1e1c;
+	color: #fff;
+}
+.footer__email, .footer__phone, .footer__copy
+{
+	margin: 1% 0 1% 83px;
+	width: 310px;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer__email
+{
+	color: #cbcbcb;
+	text-shadow: 1px 1px 1px #000;
+}
+.footer__email:hover
+{
+	color: #54b8ff;
+}

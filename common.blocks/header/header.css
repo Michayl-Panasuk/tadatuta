@@ -1,0 +1,67 @@
+.header
+{
+	border-bottom: 4px solid #ede9d6;
+}
+.header__top
+{
+	height: 48px;
+	background: #3d3d3d;
+	border-bottom: 1px solid #484846;
+	padding-top: 1px;
+	font-size: 14px;
+}
+.header__phone
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 14px 74px 0 82px;
+	color: #cbcbcb;
+	text-shadow: 1px 1px 1px #000;
+}
+.header__email
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 14px 0 0 0;
+	color: #cbcbcb;
+	text-shadow: 1px 1px 1px #000;
+}
+.header__email:hover
+{
+	color: #54b8ff;
+}
+.header__bottom
+{
+	padding: 20px 0;
+}
+@media only screen and (max-width: 1124px) {
+
+    .header__top 
+    {
+        font-size: 18px;
+    }
+    .header__bottom
+    {
+    	text-align: center;
+    	padding: 30px 0 20px;
+    }
+
+}
+@media only screen and (max-width: 780px) {
+	.header__top 
+	{
+		height: 69px;
+	}
+	.header__phone, .header__email
+	{
+		display: block;
+		text-align: center;
+		padding: 0 0 5px;
+		width: 270px;
+		margin: 0 auto;
+	}
+	.header__phone
+	{
+		padding: 5px 0 0;
+	}
+}

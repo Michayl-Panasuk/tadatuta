@@ -1,0 +1,36 @@
+.nav
+{
+	float: right;
+	margin: 27px 84px 0 0;
+	padding: 0;
+	text-align: center;
+}
+.nav__item
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.nav__link
+{
+	color: #4393cc;
+}
+.nav__link:hover
+{
+	color: #54b8ff;
+}
+@media only screen and (max-width: 1124px){
+	.nav
+	{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin: 5px 0 0;
+		text-align: center;
+	}
+	.nav__item
+	{
+		font-size: 22px;
+	}
+}

@@ -2,7 +2,7 @@
 {
 	border-bottom: 1px solid #1f1e1c;
 	background: #252422;
-	padding: 5px 6%;
+	padding: 5px 5%;
 	
 }
 .partners__title
@@ -10,6 +10,7 @@
 	margin: 20px 0 15px 0;
 	font-size: 20pt;
 	color: #fff;
+	font-weight: normal;
 }
 .partners__list
 {

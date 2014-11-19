@@ -1,0 +1,45 @@
+.share
+{
+	height: 30px;
+}
+.share__item
+{
+	display: inline-block;
+	margin: 0 2px;
+	width: 24px;
+	height: 24px;
+	border-radius: 4px;
+	overflow: hidden;
+	background: url(http://yastatic.net/share/static/b-share_counter_large.png) no-repeat;
+	cursor: pointer;
+}
+.share__item_vk
+{
+	background-color: #3a5b7e;
+	background-position: 0 -58px;
+}
+.share__item_fb
+{
+	background-color: #3c5a98;
+	background-position: 0 -0px;
+}
+.share__item_tw
+{
+	background-color: #00aced;
+	background-position: 0 -87px;
+}
+.share__item_odn
+{
+	background-color: #ff9f4d;
+	background-position: 0 -116px;
+}
+.share__item_mail
+{
+	background-color: #226eb7;
+	background-position: 0 -29px;
+}
+.share__item_gplus
+{
+	background-color: #c25234;
+	background-position: 0 -145px;
+}

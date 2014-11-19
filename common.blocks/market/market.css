@@ -1,0 +1,30 @@
+.market
+{
+	border-top: 2px solid #302f2d;
+	border-bottom: 1px solid #22211f;
+	background: #252422;
+
+	
+}
+.market__inner
+{
+	padding: 0 0 0 5%;
+	max-width: 945px;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 56px;
+	padding-top: 4px;
+}
+.market__checkOut
+{
+	color: #4ca5e5;
+	font-size: 25px;
+	height: 30px;
+}
+.market__checkOut:hover
+{
+	color: #4ca5e5;
+}
